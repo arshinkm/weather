@@ -1,0 +1,132 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: linear-gradient(#780ee8,#13e3a1);
+    color: #000;
+    height:92.3vh;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#weather {
+    text-align: center;
+    padding: 20px;
+    max-width:550px;
+    border-radius: 12px;
+    height:85%;
+    margin: 0 auto;
+}
+
+#weather img {
+    width: 15%;
+    margin-top:5%;
+}
+
+.searchbar input {
+    margin-top:45px;
+    padding:  10px;
+    width: 70%;
+    border-radius:  5px;
+    border: 1px solid #ccc;
+}
+
+.searchbar button {
+    padding:11.5px;
+    margin-left: 4px;
+    border-radius:  5px;
+    border:  none;
+    background: rgba(17, 17, 17, 0.605);
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+
+.temperaturetoggle {
+    margin-top: 20px;
+}
+
+.temperaturetoggle button {
+    padding: 10px;
+    border:  none;
+    margin:  0 5px;
+    cursor: pointer;
+    color: white;
+    border-radius:  5px;
+}
+
+#celsiusbtn{
+background-color: #0ac8cb;
+}
+
+#celsiusbtn:hover {
+    background-color: #0e3193;
+    transform: scale(1.2);
+}
+#celsiusbtn.active {
+    background-color: #0e0e0e;
+}
+
+
+#fahrenheitbtn{
+    background-color: #ff4d00;
+}
+#fahrenheitbtn:hover {
+    background-color: #ff5900c2;
+    transform: scale(1.2);
+}
+#fahrenheitbtn.active {
+    background-color: #0e0e0e;
+    ;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.145);
+    
+}
+
+
+.forecast-item {
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 150px;
+    text-align: center;
+}
+
+
+.forecast-item:hover {
+    background-color: rgba(255, 255, 255, 0.323); /* Less transparent background on hover */
+    transform: scale(1.05); /* Slightly scale up the item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+.clear {
+        background: linear-gradient(to bottom, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.clouds {
+        background: linear-gradient(to bottom, #d3cce3 0%, #e9e4f0 100%);
+}
+
+.rain {
+        background: linear-gradient(to bottom, #4e54c8 0%, #8f94fb 100%);
+}
+
+.snow {
+        background: linear-gradient(to bottom, #e0eafc 0%, #cfdef3 100%);
+}
+
+.thunderstorm {
+        background: linear-gradient(to bottom, #373b44 0%, #4286f4 100%)
+}
+
+.drizzle {
+        background: linear-gradient(to bottom, #89f7fe 0%, #66a6ff 100%);
+}
+
+.mist {
+        background: linear-gradient(to bottom, #757f9a 0%, #d7dde8 100%);
+}
